@@ -1,30 +1,31 @@
 package model;
 
+import java.math.BigDecimal;
 import java.util.List;
+import lombok.Getter;
 
 /**
- * PopulationMean class.
- * 母平均
+ * PopulationMean class. 母平均
  *
  * @author 09x3086
  */
+@Getter
 public class PopulationMean {
 
-  Double populationMean;
+  private BigDecimal populationMean;
 
   /**
    * Constructor.
    *
    * @param population Population
-   * @param doubleList Double List
+   * @param list       BigDecimalList
    */
-  public PopulationMean(Population population, List<Double> doubleList) {
-
-    double total = 0.0;
-    for (Double aDouble : doubleList) {
-      total = aDouble + aDouble;
+  public PopulationMean(BigDecimal population, List<BigDecimal> list) {
+    this.populationMean = new BigDecimal(0);
+    for (BigDecimal bigDecimalValue : list) {
+      this.populationMean = this.populationMean.add(bigDecimalValue);
     }
 
-    this.populationMean = total / (Double) population.getPopulation();
+    this.populationMean = population.divide(this.populationMean, 2, BigDecimal.ROUND_HALF_UP);
   }
 }
