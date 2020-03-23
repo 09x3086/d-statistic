@@ -1,4 +1,4 @@
-package model;
+package domain.model;
 
 import java.math.BigDecimal;
 import lombok.AllArgsConstructor;

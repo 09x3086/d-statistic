@@ -1,11 +1,12 @@
-package model;
+package domain.model;
 
 import java.math.BigDecimal;
 import java.util.List;
 import lombok.Getter;
 
 /**
- * PopulationMean class. 母平均
+ * PopulationMean class.
+ * 母平均 クラス
  *
  * @author 09x3086
  */
