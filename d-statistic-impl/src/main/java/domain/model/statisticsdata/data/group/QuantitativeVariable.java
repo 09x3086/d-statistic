@@ -1,4 +1,8 @@
-package domain.model.statisticsdata;
+package domain.model.statisticsdata.data.group;
+
+import domain.model.statisticsdata.Frequency;
+import domain.model.statisticsdata.variable.ContinuousVariable;
+import domain.model.statisticsdata.variable.DiscreteVariable;
 
 /**
  * QuantitativeVariable class.
@@ -9,6 +13,12 @@ package domain.model.statisticsdata;
  * @author 09x3086
  */
 public class QuantitativeVariable {
+
+  private VariableName variableName;
+
+  private ContinuousVariable continuousVariable;
+
+  private DiscreteVariable discreteVariable;
 
   private Frequency frequency;
 

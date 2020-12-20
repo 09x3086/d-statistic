@@ -1,17 +1,15 @@
 package domain.model;
 
 import java.math.BigDecimal;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Value;
 
 /**
  * Population class. 母集合
  *
  * @author 09x3086
  */
-@AllArgsConstructor
-@Getter
+@Value
 public class Population {
 
-  BigDecimal population;
+  BigDecimal value;
 }

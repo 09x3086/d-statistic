@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="d-statistic" target="1.5" />
-      <module name="d-statistic-impl" target="1.5" />
+      <module name="d-statistic-impl" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

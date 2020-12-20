@@ -1,4 +1,4 @@
-package domain.model.statisticsdata;
+package domain.model.statisticsdata.data.group;
 
 /**
  * ScalesType class.
@@ -11,7 +11,7 @@ package domain.model.statisticsdata;
 
 public enum ScalesType {
 
-  // NOTE:名義尺度,順序尺度,間隔尺度,比例尺度
+  // 名義尺度,順序尺度,間隔尺度,比例尺度
   NominalScale("NominalScale"),
   OrdinalScale("OrdinalScale"),
   IntervalScale("IntervalScale"),
