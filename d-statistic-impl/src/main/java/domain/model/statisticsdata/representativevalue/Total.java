@@ -22,9 +22,6 @@ public class Total {
    * @return 合計
    */
   public BigDecimal getTotalValue() {
-    for (BigDecimal bigDecimal : this.bigDecimalList) {
-      this.totalValue = this.totalValue.add(bigDecimal);
-    }
-    return this.totalValue;
+    return this.bigDecimalList.stream().reduce(this.totalValue, BigDecimal::add);
   }
 }
