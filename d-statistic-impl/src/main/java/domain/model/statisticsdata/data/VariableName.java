@@ -1,4 +1,4 @@
-package domain.model.statisticsdata.data.group;
+package domain.model.statisticsdata.data;
 
 import lombok.Value;
 

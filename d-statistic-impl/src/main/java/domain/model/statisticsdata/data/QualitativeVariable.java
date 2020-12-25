@@ -1,6 +1,4 @@
-package domain.model.statisticsdata.data.group;
-
-import domain.model.statisticsdata.Frequency;
+package domain.model.statisticsdata.data;
 
 /**
  * QualitativeVariable class.
