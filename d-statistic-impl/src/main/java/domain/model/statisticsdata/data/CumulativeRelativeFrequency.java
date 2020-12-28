@@ -14,15 +14,13 @@ public class CumulativeRelativeFrequency {
   private Map<RelativeFrequency, BigDecimal> relativeFrequencyBigDecimalMap;
 
   /**
-   * 累積
+   * 累積相対度数の計算
    *
-   * @return
+   * @return 累積相対度数
    */
   public BigDecimal calcCumulativeRelativeFrequency(List<RelativeFrequency> relativeFrequencies) {
     return relativeFrequencies.stream()
         .map(RelativeFrequency::calcRelativeFrequency)
         .reduce(BigDecimal.ZERO, BigDecimal::add);
   }
-
-
 }
