@@ -19,7 +19,7 @@ public class Median {
    *
    * @return 中央値
    */
-  public BigDecimal getMedian() {
+  public BigDecimal calculateMedian() {
     this.observationValues.sort();
     List<ObservationValue> observationValue = this.observationValues.getObservationValues();
     int size = observationValue.size();
