@@ -1,8 +1,8 @@
 package domain.model.statisticsdata.representativevalue;
 
-import java.math.BigDecimal;
 import java.util.Collections;
-import java.util.List;
+import java.util.Map;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
@@ -11,15 +11,12 @@ import lombok.Getter;
  * @author 13r4123
  */
 @Getter
+@AllArgsConstructor
 public class ObservationValues {
 
-  private List<ObservationValue> observationValues;
+  private final Map<Integer, ObservationValue> observationValueMap;
 
-  public void sort() {
-    this.observationValues.sort(Collections.reverseOrder());
-  }
-
-  public ObservationValue getObservationValue(Integer i){
-    return this.observationValues.get(i);
+  public ObservationValue getObservationValue(Integer i) {
+    return this.observationValueMap.get(i);
   }
 }

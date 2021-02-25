@@ -2,6 +2,8 @@ package domain.model.statisticsdata.representativevalue;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Map.Entry;
+import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 
 /**
@@ -15,13 +17,17 @@ public class Median {
   private final ObservationValues observationValues;
 
   /**
-   * 中央値
+   * 中央値を計算する.
    *
    * @return 中央値
    */
   public BigDecimal calculateMedian() {
-    this.observationValues.sort();
-    List<ObservationValue> observationValue = this.observationValues.getObservationValues();
+    List<ObservationValue> observationValue = this.observationValues.getObservationValueMap()
+        .entrySet().stream()
+        .sorted()
+        .map(Entry::getValue)
+        .collect(Collectors.toList());
+
     int size = observationValue.size();
 
     if (size % 2 == 0) {
