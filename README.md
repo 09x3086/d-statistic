@@ -12,7 +12,7 @@
 - 確率変数 RandomVariable
 - 確率分布 probability distribution
 
-## 代表値(representative value)
+## 代表値 representative value
 - 観測値 ObservationValues
 - 分位数 quantile
 
