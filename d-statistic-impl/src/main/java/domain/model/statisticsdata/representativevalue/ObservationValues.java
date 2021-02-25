@@ -1,5 +1,6 @@
 package domain.model.statisticsdata.representativevalue;
 
+import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
 import lombok.Getter;
@@ -12,9 +13,13 @@ import lombok.Getter;
 @Getter
 public class ObservationValues {
 
-  private List<Value> observationValues;
+  private List<ObservationValue> observationValues;
 
   public void sort() {
-    observationValues.sort(Collections.reverseOrder());
+    this.observationValues.sort(Collections.reverseOrder());
+  }
+
+  public ObservationValue getObservationValue(Integer i){
+    return this.observationValues.get(i);
   }
 }

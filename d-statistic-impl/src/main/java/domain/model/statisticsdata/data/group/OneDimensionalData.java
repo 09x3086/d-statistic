@@ -1,7 +1,7 @@
 package domain.model.statisticsdata.data.group;
 
-import domain.model.statisticsdata.data.QualitativeVariable;
-import domain.model.statisticsdata.data.QuantitativeVariable;
+import domain.model.statisticsdata.data.variable.QualitativeVariable;
+import domain.model.statisticsdata.data.variable.QuantitativeVariable;
 
 /**
  * 1次元データ

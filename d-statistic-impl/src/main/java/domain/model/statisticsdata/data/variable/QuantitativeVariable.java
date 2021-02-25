@@ -1,7 +1,10 @@
-package domain.model.statisticsdata.data;
+package domain.model.statisticsdata.data.variable;
 
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
+import domain.model.statisticsdata.data.Frequency;
+import domain.model.statisticsdata.data.ScalesType;
+import domain.model.statisticsdata.data.VariableName;
 import domain.model.statisticsdata.variable.ContinuousVariable;
 import domain.model.statisticsdata.variable.DiscreteVariable;
 

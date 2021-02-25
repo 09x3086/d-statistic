@@ -1,4 +1,8 @@
-package domain.model.statisticsdata.data;
+package domain.model.statisticsdata.data.variable;
+
+import domain.model.statisticsdata.data.Frequency;
+import domain.model.statisticsdata.data.ScalesType;
+import domain.model.statisticsdata.data.VariableName;
 
 /**
  * QualitativeVariable class.
@@ -8,7 +12,7 @@ package domain.model.statisticsdata.data;
  */
 public class QualitativeVariable {
 
-  private VariableName variableName;
+  private final VariableName variableName;
 
   private Frequency frequency;
 
