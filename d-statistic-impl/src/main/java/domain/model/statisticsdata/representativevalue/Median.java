@@ -21,7 +21,7 @@ public class Median {
    */
   public BigDecimal getMedian() {
     this.observationValues.sort();
-    List<Value> observationValue = this.observationValues.getObservationValues();
+    List<ObservationValue> observationValue = this.observationValues.getObservationValues();
     int size = observationValue.size();
 
     if (size % 2 == 0) {
