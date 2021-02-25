@@ -1,20 +1,20 @@
 # d-statistic
 
 ## データの種類
-- 質的変数(QualitativeVariable)
-    - 名義尺度(NominalScale)
-    - 順序尺度(OrdinalScale)
-- 量的変数(QuantitativeVariable)
-    - 間隔尺度(IntervalScale)
-    - 比例尺度(RatioScale)
+- 質的変数 QualitativeVariable
+    - 名義尺度 NominalScale
+    - 順序尺度 OrdinalScale
+- 量的変数 QuantitativeVariable
+    - 間隔尺度 IntervalScale
+    - 比例尺度 RatioScale
 
 ## 確率変数と確率分布
-- 確率変数(RandomVariable)
-- 確率分布(probability distribution)
+- 確率変数 RandomVariable
+- 確率分布 probability distribution
 
 ## 代表値(representative value)
 - 観測値 ObservationValues
-- 分位数(quantile)
+- 分位数 quantile
 
 ## 1変数データの分析
 - 標準化 Standardization
@@ -40,3 +40,8 @@
 - 最小二乗法 LeastSquaresMethod
 - 残差 Residual
 - 残差平方和 ResidualSumOfSquares
+- 回帰平方和 RegressionSumOfSquares
+- 総平方和 TotalSumOfSquares
+- 決定係数 CoefficientOfDetermination
+
+## 確率 random
