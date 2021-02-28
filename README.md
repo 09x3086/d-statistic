@@ -44,4 +44,13 @@
 - 総平方和 TotalSumOfSquares
 - 決定係数 CoefficientOfDetermination
 
-## 確率 random
+## 確率 Classical probability
+- 事象
+- 根源事象 ElementaryEvent
+- 全事象 AllEvents
+- 和事象
+- 積事象
+- 余事象
+- 空事象
+- 古典的確率 ClassicalProbability
+- 頻度確率 FrequencyProbability
