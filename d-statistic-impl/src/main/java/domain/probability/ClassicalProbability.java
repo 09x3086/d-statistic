@@ -1,5 +1,7 @@
 package domain.probability;
 
+import domain.probability.event.AllEvents;
+import domain.probability.event.ElementaryEvents;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import lombok.AllArgsConstructor;

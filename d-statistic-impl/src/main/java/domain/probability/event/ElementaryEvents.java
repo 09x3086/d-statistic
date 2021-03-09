@@ -1,14 +1,14 @@
-package domain.probability;
+package domain.probability.event;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * 全事象.
+ * 根源事象の集合.
  *
  * @author 13r4123
  */
-public class AllEvents {
+public class ElementaryEvents {
 
   List<ElementaryEvent> elementaryEvents;
 

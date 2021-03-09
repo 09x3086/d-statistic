@@ -1,4 +1,4 @@
-package domain.probability;
+package domain.probability.event;
 
 import lombok.Value;
 
