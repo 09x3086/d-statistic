@@ -45,6 +45,7 @@
 - 決定係数 CoefficientOfDetermination
 
 ## 確率 Classical probability
+
 - 事象
 - 根源事象 ElementaryEvent
 - 全事象 AllEvents
@@ -54,3 +55,8 @@
 - 空事象
 - 古典的確率 ClassicalProbability
 - 頻度確率 FrequencyProbability
+- 確率変数 ProbabilityVariable
+- 確率分布 ProbabilityDistribution
+- 期待値 ExpectedValue
+
+## 確率変数と確率分布

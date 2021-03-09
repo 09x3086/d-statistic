@@ -1,7 +1,6 @@
 package domain.model.statisticsdata.representativevalue;
 
 import domain.model.Population;
-import domain.model.statisticsdata.data.CalculationResult;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import lombok.AllArgsConstructor;

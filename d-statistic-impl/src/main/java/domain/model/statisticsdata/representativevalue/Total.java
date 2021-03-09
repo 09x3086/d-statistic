@@ -12,12 +12,12 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class Total {
 
-  private BigDecimal totalValue;
+  private final BigDecimal totalValue;
 
   private final List<BigDecimal> bigDecimalList;
 
   /**
-   * 合計
+   * 合計を計算する.
    *
    * @return 合計
    */

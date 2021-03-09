@@ -1,6 +1,6 @@
 package domain.analysis.regression;
 
-import domain.model.statisticsdata.data.CalculationResult;
+import domain.model.statisticsdata.representativevalue.CalculationResult;
 import java.math.BigDecimal;
 import lombok.Getter;
 

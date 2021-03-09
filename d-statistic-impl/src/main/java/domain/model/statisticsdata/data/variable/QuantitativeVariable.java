@@ -7,6 +7,7 @@ import domain.model.statisticsdata.data.ScalesType;
 import domain.model.statisticsdata.data.VariableName;
 import domain.model.statisticsdata.variable.ContinuousVariable;
 import domain.model.statisticsdata.variable.DiscreteVariable;
+import lombok.Getter;
 
 /**
  * QuantitativeVariable class.
@@ -16,6 +17,7 @@ import domain.model.statisticsdata.variable.DiscreteVariable;
  *
  * @author 09x3086
  */
+@Getter
 public class QuantitativeVariable {
 
   @NotNull
@@ -31,7 +33,7 @@ public class QuantitativeVariable {
   private Frequency frequency;
 
   @NotNull
-  private ScalesType scalesType;
+  private final ScalesType scalesType;
 
   /**
    * Constructor.

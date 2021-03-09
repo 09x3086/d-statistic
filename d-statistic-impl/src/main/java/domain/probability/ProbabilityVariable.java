@@ -1,15 +1,15 @@
-package domain.model.statisticsdata.representativevalue;
+package domain.probability;
 
 import java.math.BigDecimal;
 import lombok.Value;
 
 /**
- * 観測値.
+ * 確率変数.
  *
  * @author 13r4123
  */
 @Value
-public class ObservationValue {
+public class ProbabilityVariable {
 
   BigDecimal value;
 }

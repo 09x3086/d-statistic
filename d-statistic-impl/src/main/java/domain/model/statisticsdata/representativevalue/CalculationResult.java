@@ -1,4 +1,4 @@
-package domain.model.statisticsdata.data;
+package domain.model.statisticsdata.representativevalue;
 
 import java.math.BigDecimal;
 import lombok.Value;

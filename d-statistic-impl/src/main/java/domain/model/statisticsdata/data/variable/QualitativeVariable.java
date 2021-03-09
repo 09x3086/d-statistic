@@ -3,6 +3,7 @@ package domain.model.statisticsdata.data.variable;
 import domain.model.statisticsdata.data.Frequency;
 import domain.model.statisticsdata.data.ScalesType;
 import domain.model.statisticsdata.data.VariableName;
+import lombok.Getter;
 
 /**
  * QualitativeVariable class.
@@ -10,13 +11,14 @@ import domain.model.statisticsdata.data.VariableName;
  * <p>
  * 質的変数 クラス
  */
+@Getter
 public class QualitativeVariable {
 
   private final VariableName variableName;
 
-  private Frequency frequency;
+  private final Frequency frequency;
 
-  private ScalesType scalesType;
+  private final ScalesType scalesType;
 
   /**
    * Constructor.
